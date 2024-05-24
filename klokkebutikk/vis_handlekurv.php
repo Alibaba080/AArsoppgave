@@ -23,4 +23,6 @@ if (isset($_SESSION['cart']) && count($_SESSION['cart']) > 0) {
 } else {
     echo "Handlekurven er tom.";
 }
+echo "<a href='produkter.php'><button>Gå tilbake til produktsiden</button></a>";
+
 ?>

@@ -46,7 +46,7 @@ try {
     $conn->rollback();
     echo "Feil under behandling av ordren: " . $e->getMessage();
 }
+echo "<a href='produkter.php'><button>Gå tilbake til produktsiden</button></a>";
 
 $conn->close();
 ?>
-<a href="produkter.php" target="_blank" rel="noopener noreferrer"></a>
